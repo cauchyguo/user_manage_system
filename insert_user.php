@@ -31,13 +31,18 @@
 //设置数据操作
 	$sql = "insert into user(user_no, user_name, user_age, user_intro, status) values(" . $intNo . ",'" . $strName . "'," . $intAge . ", '" . $strIntro . "', 1)";
 
-//执行数据操作
-	$result = $link->query($sql);
 
+//执行数据操作
+    $result = $link->query($sql);
+    if ($result)
+        echo "添加成功";
+    else
+        echo "添加失败";
 //关闭数据库
 //	$result->close();
 	$link->close();
 	}
   ?>
+ <br><a href=show_user.php>返回</a>
  </body>
 </html>

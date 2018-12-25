@@ -25,9 +25,9 @@ if ($link->connect_errno) {
 //执行数据操作
     $result = $link->query($sql);
     if ($result)
-        echo "添加成功";
+        echo "激活成功";
     else
-        echo "添加失败";
+        echo "激活失败";
 
 //关闭数据库
 //	$result->close();
