@@ -34,6 +34,6 @@ if ($link->connect_errno) {
     $link->close();
 }
 ?>
-<br><a href=show_user.php>返回</a>
+<br><a href=user_show.php>返回</a>
 </body>
 </html>
