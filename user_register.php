@@ -8,7 +8,7 @@
 <body>
 <h1 style="position:absolute; left:140px; top:10px; "><b>用户注册</b></h1>
 <section>
-	<form action="insert_user.php" method="post">
+	<form action="user_insert.php" method="post">
 		<table>
 			<tr>
 				<td style="position:absolute; left:90px; top:90px; ">编号:</td>

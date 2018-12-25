@@ -34,7 +34,7 @@ if ($link->connect_errno) {
         echo "<td>" . $row["status"] . "</td>";
         echo "<td><a href=user_active.php?no=" . $row["user_no"] . ">激活</a></td>";
         echo "<td><a href=user_delete.php?no=" . $row["user_no"] . ">删除</a></td>";
-        echo "<td><a href=user_update.php?no=" . $row["user_no"] . ">更新</a></td>";
+        echo "<td><a href=user_updateinfo_collect.php?no=" . $row["user_no"] . ">更新</a></td>";
         echo "</tr>";
     }
     echo "</table>";
