@@ -1,5 +1,6 @@
 # user_system
 简单介绍下哈，一个使用php实现用户管理的小项目。共有7个php代码大致功能见下:
+
 user_register.php以一个html table来读取用户要注册的信息，以POST的方式发送出去。
 
 user_insert.php接收到POST信息，然后通过mysqli模块完成数据库表user记录的新增。这里在插入前先检查了用户的主见user_no是否出现在user表中。
