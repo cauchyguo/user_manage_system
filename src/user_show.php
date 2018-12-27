@@ -6,7 +6,7 @@
 	<meta name="Author" content="">
 	<meta name="Keywords" content="">
 	<meta name="Description" content="">
-	<title>Document</title>
+	<title>用户列表菜单</title>
 </head>
 <body>
 
@@ -44,5 +44,6 @@ if ($link->connect_errno) {
     $link->close();
 }
 ?>
+<a href=user_register.php>新增用户</a>
 </body>
 </html>
