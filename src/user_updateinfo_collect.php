@@ -6,7 +6,7 @@
 	<meta name="Author" content="">
 	<meta name="Keywords" content="">
 	<meta name="Description" content="">
-	<title>Document</title>
+	<title>更新用户信息</title>
 </head>
 <body>
 <?php

@@ -24,7 +24,7 @@ $link = new mysqli("localhost", "root", "", "myclass");
 if ($link->connect_errno) {
     die("connect Error:" . $link->connect_error);
 } else {
-    $sql = "update `user` set user_name='{$strName}',user_age='{$intAge}',user_intro='{$strIntro}' where user_no='{$intNo}'";
+    $sql = "update user set user_name='{$strName}',user_age='{$intAge}',user_intro='{$strIntro}' where user_no='{$intNo}'";
     $result = $link->query($sql);
     if ($result)
         echo "更新成功";
